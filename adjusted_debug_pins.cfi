@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE             6/16/2022 - 18:14
+SOURCE          /media/dmishins/1AD0BEB7D0BE9909/Users/Daniel/Desktop/Research/DAPHNE/FEB/FPGA/mu2e/mu2e-daq-firmware-crv/ROC/FPGA2/adjusted_debug_pins.bin
+DEVICE          8192K
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x00BACF13
+START_ADDRESS   0x00000000 END_ADDRESS 0x000C3BCD DIRECTION_UP   "/media/dmishins/1AD0BEB7D0BE9909/Users/Daniel/Desktop/Research/DAPHNE/FEB/FPGA/mu2e/mu2e-daq-firmware-crv/ROC/FPGA2/Controller_FPGA2.bit" 6slx25fgg484

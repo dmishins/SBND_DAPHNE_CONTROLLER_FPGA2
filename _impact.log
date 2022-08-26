@@ -1,0 +1,166 @@
+iMPACT Version: 14.7
+
+iMPACT log file Started on Thu Jun 16 15:35:20 2022
+
+Welcome to iMPACT
+iMPACT Version: 14.7
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : loadProjectFile -file"/media/dmishins/1AD0BEB7D0BE9909/Users/Daniel/Desktop/Research/DAPHNE/CONTROLLER/Controller_FPGA1_OTtest/CTRL_iseproj/Prom_gen.ipf"
+'1': Loading file'/media/dmishins/1AD0BEB7D0BE9909/Users/Daniel/Desktop/Research/DAPHNE/CONTROLLER/Controller_FPGA1_OTtest/CTRL_iseproj/ControllerFPGA_1.bit' ...
+INFO:iMPACT - Elapsed time =      0 sec.
+done.
+INFO:iMPACT:501 - '1': Added Device xc6slx25t successfully.
+----------------------------------------------------------------------
+'1': Added Device 8M successfully.
+----------------------------------------------------------------------
+Active mode is PFF
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setCurrentDesign -version 0
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setCurrentDeviceChain -index 0
+// *** BATCH CMD : setMode -pff
+------------------------  GUI: Wizard Data Report  ---------------------------
+      Compression : false
+      Fill Value : FF
+      Output Format : bin
+      Swap Bits : true
+      LoadDirection : UP
+      PROM Basename : OTTest_2022_v4
+      File Location :/media/dmishins/1AD0BEB7D0BE9909/Users/Daniel/Desktop/Research/DAPHNE/CONTROLLER/Controller_FPGA1_OTtest/bin
+      Auto Selcet : false
+      Number of Revisions : 1
+      Number of PROMs : 1
+      PROM Name : 8M   PROM Size : 8388608 Bytes
+        ------ Revision: 0 '0', 1 device(s) chain -----
+        Device 0, pn=xc6slx25t   fn=ControllerFPGA_1.bit
+-------------------------- END of Report ----------------------------
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+Enumerating cables. Please wait.
+PROGRESS_START - Starting Operation.
+If you are using the Platform Cable USB, please refer to the USB CableInstallation Guide (UG344) to install the libusb package.
+ Using windrvr6 driver.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ libusb-driver.so version: 2022-06-16 15:33:39.
+write (count, cmdBuffer, dataBuffer) failed FFFFFFFFFFFFFFE0.
+Downloading /opt/Xilinx/14.7/ISE_DS/ISE/data/xusb_xp2.hex.
+Downloaded firmware version = 2401.
+=======================================================
+Found cable - > ESN = 00001A37768001.
+=======================================================
+If you are using the Platform Cable USB, please refer to the USB CableInstallation Guide (UG344) to install the libusb package.
+ Using windrvr6 driver.
+Connecting to cable (Usb Port - USB22).
+Checking cable driver.
+ libusb-driver.so version: 2022-06-16 15:33:39.
+PROGRESS_END - End Operation.
+Elapsed time =      3 sec.
+ parport1: baseAddress=0x10, ecpAddress=0x410
+ parport2: baseAddress=0x20, ecpAddress=0x420
+// *** BATCH CMD : setCable -port ttyS0 -baud -1
+Enumerating cables. Please wait.
+If you are using the Platform Cable USB, please refer to the USB CableInstallation Guide (UG344) to install the libusb package.
+ Using windrvr6 driver.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ libusb-driver.so version: 2022-06-16 15:33:39.
+write cmdbuffer failed FFFFFFFFFFFFFFF7.
+Loopback test failed. Sent character = 00, Received character = 00.
+ERROR:iMPACT - Cable not found, ESN: 00001A37768001
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+*** WARNING ***: When port is set to auto detect mode, cable speed is set todefault 6 MHz regardless of explicit arguments supplied for setting the baudrates
+PROGRESS_START - Starting Operation.
+If you are using the Platform Cable USB, please refer to the USB CableInstallation Guide (UG344) to install the libusb package.
+ Using windrvr6 driver.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+File version of /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/xusbdfwu.hex = 1030.
+File version of /etc/hotplug/usb/xusbdfwu.fw/xusbdfwu.hex = 1030.
+ libusb-driver.so version: 2022-06-16 15:33:39.
+ Cable PID = 0008.
+ Max current requested during enumeration is 150 mA.
+Type = 0x0005.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 2401.
+File version of /opt/Xilinx/14.7/ISE_DS/ISE/data/xusb_xp2.hex = 2401.
+Firmware hex file version = 2401.
+PLD file version = 200Dh.
+ PLD version = 200Dh.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+Type = 0x0005.
+ESN option: 00001A37768001.
+Attempting to identify devices in the boundary-scan chain configuration...
+INFO:iMPACT - Current time: 6/16/22 3:36 PM
+// *** BATCH CMD : Identify -inferir 
+PROGRESS_START - Starting Operation.
+Identifying chain contents...'0': : Manufacturer's ID = Xilinx xc6slx25, Version : 2
+INFO:iMPACT:1777 - 
+   Reading /opt/Xilinx/14.7/ISE_DS/ISE/spartan6/data/xc6slx25.bsd...
+INFO:iMPACT:501 - '1': Added Device xc6slx25 successfully.
+----------------------------------------------------------------------
+'1': : Manufacturer's ID = Xilinx xc6slx25, Version : 2
+INFO:iMPACT:501 - '1': Added Device xc6slx25 successfully.
+----------------------------------------------------------------------
+'2': : Manufacturer's ID = Xilinx xc6slx25, Version : 2
+INFO:iMPACT:501 - '1': Added Device xc6slx25 successfully.
+----------------------------------------------------------------------
+'3': : Manufacturer's ID = Unknown 
+INFO:iMPACT:501 - '1': Added Device UNKNOWN successfully.
+----------------------------------------------------------------------
+INFO:iMPACT:1588 - '4':The part does not appear to be Xilinx Part.
+'4': : Manufacturer's ID =Unknown , Version : 15
+INFO:iMPACT:501 - '1': Added Device UNKNOWN successfully.
+----------------------------------------------------------------------
+done.
+ERROR:iMPACT - Bsdl reader is not available for device 1.
+INFO:iMPACT:583 - '2': The idcode read from the device does not match the idcode   in the bsdl File.
+INFO:iMPACT:1578 - '2':  Device IDCODE :        00001111111111111111111111111110
+INFO:iMPACT:1579 - '2': Expected IDCODE:    00000100000000000100000010010011
+Discarding inferred data.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+// *** BATCH CMD : identifyMPM 
+INFO:iMPACT - User_EnvOsname: 'LinuxMint'
+INFO:iMPACT - User_EnvOsrelease: 'Linux Mint 19.1 Tessa'
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -pff
+INFO:iMPACT - Launching WebTalk, please refer to the webtalk log at   /media/dmishins/1AD0BEB7D0BE9909/Users/Daniel/Desktop/Research/DAPHNE/CONTROL   LER/Controller_FPGA1_OTtest/CTRL_iseproj/webtalk.log for details.
+INFO:iMPACT - Running wbtc successfully.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff

@@ -1,0 +1,11 @@
+Storage Target: Generic Parallel PROM
+8M   [8388608]
+FF
+send_only_one_event
+/media/dmishins/1AD0BEB7D0BE9909/Users/Daniel/Desktop/Research/DAPHNE/FEB/FPGA/OLD/newer_mu2e/mu2e-daq-firmware-crv/ROC/FPGA2/
+
+BIN (Swap Bits ON)
+UP
+1
+0
+No

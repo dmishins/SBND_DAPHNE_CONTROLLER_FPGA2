@@ -1,0 +1,46 @@
+Release 14.7 ngcbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngcbuild -dd
+/media/dmishins/1AD0BEB7D0BE9909/Users/Daniel/Desktop/Research/DAPHNE/FEB/FPGA/m
+u2e/mu2e-daq-firmware-crv/ROC/FPGA2/_ngo -sd ipcore_dir -p xc6slx25-fgg484-3 -i
+/media/dmishins/1AD0BEB7D0BE9909/Users/Daniel/Desktop/Research/DAPHNE/FEB/FPGA/m
+u2e/mu2e-daq-firmware-crv/ROC/FPGA2/Controller_FPGA2.ngc
+/media/dmishins/1AD0BEB7D0BE9909/Users/Daniel/Desktop/Research/DAPHNE/FEB/FPGA/m
+u2e/mu2e-daq-firmware-crv/ROC/FPGA2/Controller_FPGA2_cs.ngc
+
+Prepending components to an absolute path is invalid.
+Reading NGO file
+"/media/dmishins/1AD0BEB7D0BE9909/Users/Daniel/Desktop/Research/DAPHNE/FEB/FPGA/
+mu2e/mu2e-daq-firmware-crv/ROC/FPGA2/Controller_FPGA2.ngc" ...
+Loading design module "ipcore_dir/LinkTxFIFO.ngc"...
+Loading design module "ipcore_dir/LinkTxFIFOTrace.ngc"...
+Loading design module "ipcore_dir/SMI_FIFO.ngc"...
+Loading design module "ipcore_dir/PhyTxBuff.ngc"...
+Loading design module "ipcore_dir/SCFifo_512x16.ngc"...
+Loading design module "ipcore_dir/SCFIFO_1Kx28.ngc"...
+Loading design module "ipcore_dir/PhyRxBuff.ngc"...
+Loading design module "ipcore_dir/SCFIFO1Kx16.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 421848 kilobytes
+
+Writing NGC file
+"/media/dmishins/1AD0BEB7D0BE9909/Users/Daniel/Desktop/Research/DAPHNE/FEB/FPGA/
+mu2e/mu2e-daq-firmware-crv/ROC/FPGA2/Controller_FPGA2_cs.ngc" ...
+Total REAL time to NGCBUILD completion:  2 sec
+Total CPU time to NGCBUILD completion:   2 sec
+
+Writing NGCBUILD log file
+"/media/dmishins/1AD0BEB7D0BE9909/Users/Daniel/Desktop/Research/DAPHNE/FEB/FPGA/
+mu2e/mu2e-daq-firmware-crv/ROC/FPGA2/Controller_FPGA2_cs.blc"...
